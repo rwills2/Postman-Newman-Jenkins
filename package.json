@@ -1,0 +1,18 @@
+{
+  "name": "postman-newman-jenkins",
+  "version": "1.0.0",
+  "description": "Project for storing Postman tests",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-test-production": "newman run tests/automation testing practice.postman_collection.json"
+  },
+  "keywords": [
+    "\u001b[A\u001b[B"
+  ],
+  "author": "Ryan Wills",
+  "dependencies": {
+    "newman": "^4.5.5"
+  }
+}
