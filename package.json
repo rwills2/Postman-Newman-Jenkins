@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-test-production": "newman run tests/automation testing practice.postman_collection.json --reporters junit --reporter-junit-expor newman.xml"
+    "api-test-production": "newman run tests/automation testing practice.postman_collection.json --reporters junit --reporter-junit-export newman.xml"
   },
   "keywords": [
     "\u001b[A\u001b[B"
